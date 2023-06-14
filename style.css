@@ -1,0 +1,21 @@
+@import url(estilo/header.css);
+@import url(estilo/nav.css);
+@import url(estilo/footer.css);
+@import url(estilo/main.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700&family=Montserrat:wght@300;400&family=Playfair+Display&display=swap');
+
+:root{
+    --bg: #22eef2;
+    --cor-1: #333;  
+    --cor-2: #1f15dc;  
+    --fp: 'Roboto', sans-serif;
+}
+
+body{
+    background-color:var(--bg);
+}
+
+h1{
+    color: var(--cor-principal);
+    font-family: var(--fp);
+}
